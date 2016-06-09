@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>What kind of triangle?</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS Styling -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.2.4.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+
+  </head>
+  <body>
+    <center>
+    <div class="container col-md-4">
+    <h1>Triangle Worksheet</h1>
+      <form id="triangle">
+          <div class="form-group">
+            <label for="input1">1st number:</label>
+            <input id="input1" class="form-control" type="number">
+          </div>
+          <div class="form-group">
+            <label for="input2">2nd number:</label>
+            <input id="input2" class="form-control" type="number">
+          </div>
+          <div class="form-group">
+            <label for="input3">3rd number:</label>
+            <input id="input3" class="form-control" type="number">
+          </div>
+          <input class="btn btn-success" type="submit" value="Submit">
+        </form>
+        <div id="result1">
+          <center><span id="triangle1"><img src="img/equal.png" alt="equal" width="900px" height="200px"> </span>
+        </div>
+        <div id="result2">
+          <center><span id="triangle2"><img src="img/iso.gif" alt="iso" width="900px" height="200px"> </span>
+        </div>
+        <div id="result3">
+        <center><span id="triangle3"><img src="img/scale.jpg" alt="scale" width="900px" height="200px"> </span>
+        </div>
+        <div id="other">
+          <p>Not a triangle, go back to school. </p>
+        </div>
+        </div>
+      </div>
+    </center>
+  </body>
+</html>

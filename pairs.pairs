@@ -1,0 +1,9 @@
+  # To use this file, delete the pairs before the "." and place it in the home directory.
+  # After running git init, run this command in the git repo: $ git pair al mkn
+
+pairs:
+  zh: Zach Holz
+  lk: Laura Krouse
+email_addresses:
+  zh: zach.a.holz@gmail.com
+  lk: laura.krouse@pcc.edu 
